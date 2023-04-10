@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  to add global styles in tailwind */
+@layer base {
+  body{
+    @apply  box-border p-0 m-0
+  }
+  button {
+    @apply border border-black rounded-lg px-5 py-1
+  }
+}
